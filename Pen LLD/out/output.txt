@@ -1,0 +1,34 @@
+﻿ClickablePen | Parker | BLUE | Ink: 100%
+Parker: Pen is closed, can't write.
+Parker: *click* opened.
+Parker [BLUE, Ink: 90%] -> hello world
+Parker [BLUE, Ink: 80%] -> SOLID is cool
+Parker: *click* closed.
+Parker: Pen is closed, can't write.
+
+Parker: *click* opened.
+Parker [BLUE, Ink: 70%] -> line 1
+Parker [BLUE, Ink: 60%] -> line 2
+Parker [BLUE, Ink: 50%] -> line 3
+Parker [BLUE, Ink: 40%] -> line 4
+Parker [BLUE, Ink: 30%] -> line 5
+Parker [BLUE, Ink: 20%] -> line 6
+Parker [BLUE, Ink: 10%] -> line 7
+Parker [BLUE, Ink: 0%] -> line 8
+Parker: Ink is empty, please refill.
+Parker: Ink is empty, please refill.
+Parker: Ink is empty, please refill.
+Ink refilled!
+Parker [BLUE, Ink: 90%] -> back to writing!
+
+NonClickablePen | Classmate | BLACK | Ink: 100%
+Classmate: Pen is closed, can't write.
+Classmate: Cap removed, pen is open.
+Classmate [BLACK, Ink: 90%] -> LLD assignment done!
+Classmate: Cap placed, pen is closed.
+Classmate: Pen is closed, can't write.
+
+ClickablePen | Pilot | RED | Ink: 100%
+Pilot: *click* opened.
+Pilot [RED, Ink: 90%] -> marking in red!
+Pilot: *click* closed.
