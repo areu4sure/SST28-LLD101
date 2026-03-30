@@ -1,0 +1,7 @@
+out/
+output.txt
+*.class
+.DS_Store
+.idea/
+.vscode/
+bin/
