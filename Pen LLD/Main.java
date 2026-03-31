@@ -19,9 +19,8 @@ public class Main {
          * Scenario 1 — A gel pen with a cap cover and cartridge refill.
          * This is common for premium gel pens used in journaling.
          */
-        System.out.println("╔══════════════════════════════════════════════╗");
-        System.out.println("║   Scenario 1: Gel Pen (Cap + Cartridge)     ║");
-        System.out.println("╚══════════════════════════════════════════════╝");
+        System.out.println("  Scenario 1: Gel Pen (Cap + Cartridge) ");
+        
         Pen gelPen = PenFactory.createPen("gel", "cap", "cartridge", "Royal Blue");
         gelPen.start();
         gelPen.write("Design patterns are powerful!");
@@ -35,9 +34,7 @@ public class Main {
          * Scenario 2 — A ballpoint pen with click mechanism and pipe refill.
          * The standard office pen. Also tests state validation.
          */
-        System.out.println("╔══════════════════════════════════════════════╗");
-        System.out.println("║   Scenario 2: Ball Pen (Click + Pipe)       ║");
-        System.out.println("╚══════════════════════════════════════════════╝");
+        System.out.println("  Scenario 2: Ball Pen (Click + Pipe)      ");
         Pen ballPen = PenFactory.createPen("ball", "click", "pipe", "Black");
         ballPen.write("This should FAIL — pen is still closed!");
         ballPen.start();
@@ -50,9 +47,7 @@ public class Main {
          * Scenario 3 — An ink (fountain) pen with cap and cartridge.
          * Elegant pen for calligraphy and formal writing.
          */
-        System.out.println("╔══════════════════════════════════════════════╗");
-        System.out.println("║   Scenario 3: Ink Pen (Cap + Cartridge)     ║");
-        System.out.println("╚══════════════════════════════════════════════╝");
+        System.out.println("  Scenario 3: Ink Pen (Cap + Cartridge)  ");
         Pen inkPen = PenFactory.createPen("ink", "cap", "cartridge", "Forest Green");
         inkPen.start();
         inkPen.write("Elegant calligraphy practice.");
